@@ -59,7 +59,7 @@
         overflow-x: scroll;
         white-space: nowrap;
     }
-    .opcoes div{
+    .opcoes > div{
        margin-right: 14px;
         width: 172px;
         height: 216px;
@@ -68,9 +68,17 @@
         border-radius: 6px;
         
     }
-    .selecionado{
+    .selecionadoP{
         transition: 0.2s;
-        box-shadow: inset 0 0 0 0.3em #32b72f;
+        box-shadow: inset 0 0 0 0.3em #32b72f,0 0 1em rgba(0, 0, 0, 0.25);
+    }
+    .selecionadoB{
+        transition: 0.2s;
+        box-shadow: inset 0 0 0 0.3em #32b72f,0 0 1em rgba(0, 0, 0, 0.25);
+    }
+    .selecionadoS{
+        transition: 0.2s;
+        box-shadow: inset 0 0 0 0.3em #32b72f,0 0 1em rgba(0, 0, 0, 0.25);
     }
     .opcoes img{
         margin-bottom: 5px;
@@ -102,8 +110,9 @@
         right: 0;
     }
 
-    .menu div{
+    .menu buttom{
         background-color: #CBCBCB;
+        color:#FFFFFF;
         width: 361px;
         height: 61px;
         display: flex;
@@ -111,6 +120,31 @@
         align-items: center;
         border-radius: 50px;
     }
+    ion-icon{
+        color: #32b72f;
+    }
+
+    .verif{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .verif ion-icon{
+        display: none;
+    }
+    .escondido1 ion-icon{
+        display:initial;
+
+    }
+    .escondido2 ion-icon{
+        display:initial;
+    }
+    .escondido3 ion-icon{
+        display:initial;
+    }
+
+
 
 
 }

@@ -110,7 +110,7 @@
         right: 0;
     }
 
-    .menu buttom{
+    buttom{
         background-color: #CBCBCB;
         color:#FFFFFF;
         width: 361px;
@@ -142,6 +142,19 @@
     }
     .escondido3 ion-icon{
         display:initial;
+    }
+
+    .liberarB{
+        transition: 0,2s;
+        background-color: #32B72F;
+        color:#FFFFFF;
+        width: 361px;
+        height: 61px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        margin: auto;
     }
 
 
